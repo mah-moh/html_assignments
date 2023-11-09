@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Sans-Serif;
+    line-height: 1.4;
     background: rgb(2,102,85);
     background: linear-gradient(131deg, rgba(2,102,85,1) 0%, rgba(47,97,97,1) 58%, rgba(56,90,94,1) 100%);
 }
