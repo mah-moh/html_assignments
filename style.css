@@ -61,6 +61,7 @@ section > strong {
     display: inline-block;
     width: 100%;
     padding-bottom: 5px; 
+    font-size: 15px;
 }
 
 #academic-projects > p {
@@ -97,7 +98,6 @@ section {
 
 section:hover {
     box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
-    padding: 20px;
     width: 2 em;
 }
 
