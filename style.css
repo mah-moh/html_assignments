@@ -109,7 +109,7 @@ section:hover {
     }
 
     #container {
-        width: 100%;
+        width: auto;
         padding: 50px;
     }
 
