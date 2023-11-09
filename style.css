@@ -1,8 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: url('images/matt-gross-zDlHzmIU5uU-unsplash.jpg')
     
-    background: rgb(2,102,85);
+    /**background: rgb(2,102,85);
     background: linear-gradient(131deg, rgba(2,102,85,1) 0%, rgba(47,97,97,1) 58%, rgba(56,90,94,1) 100%);
+    **/
 }
 
 #container {
@@ -22,11 +24,14 @@ body {
     -webkit-backdrop-filter: blur(8.5px);
     border: 1px solid rgba(255, 255, 255, 0.49);
 
+    display: flex;
+    justify-content: space-around;
+
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+    /**display: flex;
+    justify-content: space-between;**/
     margin-top: 0;
 }
 
@@ -97,8 +102,18 @@ section {
 
 section:hover {
     box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
-    padding: 20px;
+    border-radius: 8px;
     width: 2 em;
+}
+
+#left-container {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(255, 255, 255, 0.49);
 }
 
 
